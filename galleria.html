@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Versio 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Resources/css/galleria.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">Image by Peltsi</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Etusivu</a></li>
+          <li><a href="galleria.html">Galleria</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Galleria</h1>   
+      </section>
+       
+    
+        <div class="gallery">
+        <div class="gallery-item">
+            <img src="./Resources/Images/helsinki-maisemakuva-suomenlinna.webp" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <img src="./Resources/Images/helsinki-pohjoissatama.webp" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <img src="./Resources/Images/jarvenpaa-maisemakuva-tuusulanjarvi.webp" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <img src="./Resources/Images/kastekuva.webp" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <img src="./Resources/Images/perhekuva-saara-ja-sanna.webp" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <img src="./Resources/Images/kuusamo-maisemakuva.webp" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <img src="./Resources/Images/perhekuva-tuisku-ja-hilkka.webp" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <img src="./Resources/Images/hilkka-ratsastuskuva.webp" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <img src="./Resources/Images/viljo-ja-hilkka-ryhmakuva.webp" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <img src="./Resources/Images/tupla-valoitus.webp" alt="" class="gallery-img">
+        </div>
+        </div>
+    </div>
+
+    </main>
+    <footer>
+      <p>© 2023 Image by Peltsi</p>
+    </footer>
+       <script>
+        const mobileNavToggle = document.querySelector('.hamburger');
+        const mobileNav = document.querySelector('.nav-links');
+        mobileNavToggle.addEventListener('click', () => {
+        mobileNav.classList.toggle('active');
+      });
+    </script>
+      
+  </body>
+</html>
